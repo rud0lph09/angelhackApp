@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A6037330AC083CC19606517 /* Pods_ChambaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BDE521E7DE58EF58BDD3278 /* Pods_ChambaTests.framework */; };
+		4A1A0D51C2D591114DB56F35 /* Pods_Chamba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4204C79964FAC768F73233C6 /* Pods_Chamba.framework */; };
+		85332C3520DF683A00ECE38D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85332C3420DF683A00ECE38D /* GoogleService-Info.plist */; };
+		85332C3720DF6B9100ECE38D /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85332C3620DF6B9100ECE38D /* Candidate.swift */; };
+		85332C3920DF6BB000ECE38D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85332C3820DF6BB000ECE38D /* User.swift */; };
+		85332C3B20DF7BCB00ECE38D /* CandidateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85332C3A20DF7BCB00ECE38D /* CandidateDetailViewController.swift */; };
+		85332C3D20DF7CF600ECE38D /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85332C3C20DF7CF600ECE38D /* DetailCell.swift */; };
+		85332C3F20E00A6900ECE38D /* VaccancyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85332C3E20E00A6900ECE38D /* VaccancyController.swift */; };
 		85E8053720DF60D8009BC92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8053620DF60D8009BC92E /* AppDelegate.swift */; };
 		85E8053920DF60D8009BC92E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8053820DF60D8009BC92E /* ViewController.swift */; };
 		85E8053C20DF60D8009BC92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8053A20DF60D8009BC92E /* Main.storyboard */; };
@@ -14,6 +22,7 @@
 		85E8054120DF60DA009BC92E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85E8053F20DF60DA009BC92E /* LaunchScreen.storyboard */; };
 		85E8054C20DF60DA009BC92E /* ChambaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8054B20DF60DA009BC92E /* ChambaTests.swift */; };
 		85E8055720DF60DB009BC92E /* ChambaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8055620DF60DB009BC92E /* ChambaUITests.swift */; };
+		8F67EAC82DD44154D6D8AB1E /* Pods_ChambaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6D7DC63CA46EBB80AA3C3F /* Pods_ChambaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BDE521E7DE58EF58BDD3278 /* Pods_ChambaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChambaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F817A767E00364B71A3823A /* Pods-ChambaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChambaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChambaUITests/Pods-ChambaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4204C79964FAC768F73233C6 /* Pods_Chamba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chamba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C80F435AAB5E4126F5776C /* Pods-ChambaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChambaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChambaTests/Pods-ChambaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		569CA4F242DFC107CB0585DA /* Pods-Chamba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chamba.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chamba/Pods-Chamba.release.xcconfig"; sourceTree = "<group>"; };
+		6C6D7DC63CA46EBB80AA3C3F /* Pods_ChambaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChambaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85332C3420DF683A00ECE38D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85332C3620DF6B9100ECE38D /* Candidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
+		85332C3820DF6BB000ECE38D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		85332C3A20DF7BCB00ECE38D /* CandidateDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateDetailViewController.swift; sourceTree = "<group>"; };
+		85332C3C20DF7CF600ECE38D /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		85332C3E20E00A6900ECE38D /* VaccancyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccancyController.swift; sourceTree = "<group>"; };
 		85E8053320DF60D8009BC92E /* Chamba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chamba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8053620DF60D8009BC92E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85E8053820DF60D8009BC92E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,9 @@
 		85E8055220DF60DB009BC92E /* ChambaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChambaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8055620DF60DB009BC92E /* ChambaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChambaUITests.swift; sourceTree = "<group>"; };
 		85E8055820DF60DB009BC92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA817A53C919E1FE092783E /* Pods-ChambaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChambaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChambaTests/Pods-ChambaTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7E03058C47D9092CA3E21A1 /* Pods-ChambaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChambaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChambaUITests/Pods-ChambaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD88AC73231E2AB35CC9A802 /* Pods-Chamba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chamba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chamba/Pods-Chamba.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1A0D51C2D591114DB56F35 /* Pods_Chamba.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6037330AC083CC19606517 /* Pods_ChambaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F67EAC82DD44154D6D8AB1E /* Pods_ChambaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E8023069295AABC3791E48D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD88AC73231E2AB35CC9A802 /* Pods-Chamba.debug.xcconfig */,
+				569CA4F242DFC107CB0585DA /* Pods-Chamba.release.xcconfig */,
+				42C80F435AAB5E4126F5776C /* Pods-ChambaTests.debug.xcconfig */,
+				ACA817A53C919E1FE092783E /* Pods-ChambaTests.release.xcconfig */,
+				3F817A767E00364B71A3823A /* Pods-ChambaUITests.debug.xcconfig */,
+				B7E03058C47D9092CA3E21A1 /* Pods-ChambaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		85E8052A20DF60D8009BC92E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				85E8054A20DF60DA009BC92E /* ChambaTests */,
 				85E8055520DF60DB009BC92E /* ChambaUITests */,
 				85E8053420DF60D8009BC92E /* Products */,
+				2E8023069295AABC3791E48D /* Pods */,
+				FC33F9B35A190AD23ED6E61D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +139,16 @@
 		85E8053520DF60D8009BC92E /* Chamba */ = {
 			isa = PBXGroup;
 			children = (
+				85332C3420DF683A00ECE38D /* GoogleService-Info.plist */,
 				85E8053620DF60D8009BC92E /* AppDelegate.swift */,
 				85E8053820DF60D8009BC92E /* ViewController.swift */,
 				85E8053A20DF60D8009BC92E /* Main.storyboard */,
+				85332C3E20E00A6900ECE38D /* VaccancyController.swift */,
 				85E8053D20DF60DA009BC92E /* Assets.xcassets */,
+				85332C3620DF6B9100ECE38D /* Candidate.swift */,
+				85332C3A20DF7BCB00ECE38D /* CandidateDetailViewController.swift */,
+				85332C3C20DF7CF600ECE38D /* DetailCell.swift */,
+				85332C3820DF6BB000ECE38D /* User.swift */,
 				85E8053F20DF60DA009BC92E /* LaunchScreen.storyboard */,
 				85E8054220DF60DA009BC92E /* Info.plist */,
 			);
@@ -125,6 +173,16 @@
 			path = ChambaUITests;
 			sourceTree = "<group>";
 		};
+		FC33F9B35A190AD23ED6E61D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4204C79964FAC768F73233C6 /* Pods_Chamba.framework */,
+				2BDE521E7DE58EF58BDD3278 /* Pods_ChambaTests.framework */,
+				6C6D7DC63CA46EBB80AA3C3F /* Pods_ChambaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85E8055B20DF60DB009BC92E /* Build configuration list for PBXNativeTarget "Chamba" */;
 			buildPhases = (
+				0667BC4E92F81551F5314700 /* [CP] Check Pods Manifest.lock */,
 				85E8052F20DF60D8009BC92E /* Sources */,
 				85E8053020DF60D8009BC92E /* Frameworks */,
 				85E8053120DF60D8009BC92E /* Resources */,
+				18B4707D1F4817198F822B8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85E8055E20DF60DB009BC92E /* Build configuration list for PBXNativeTarget "ChambaTests" */;
 			buildPhases = (
+				3EF220F82660CDAA5286F67B /* [CP] Check Pods Manifest.lock */,
 				85E8054320DF60DA009BC92E /* Sources */,
 				85E8054420DF60DA009BC92E /* Frameworks */,
 				85E8054520DF60DA009BC92E /* Resources */,
@@ -167,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85E8056120DF60DB009BC92E /* Build configuration list for PBXNativeTarget "ChambaUITests" */;
 			buildPhases = (
+				F75C9270F4D63FFE8F9C61CE /* [CP] Check Pods Manifest.lock */,
 				85E8054E20DF60DB009BC92E /* Sources */,
 				85E8054F20DF60DB009BC92E /* Frameworks */,
 				85E8055020DF60DB009BC92E /* Resources */,
@@ -230,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85E8054120DF60DA009BC92E /* LaunchScreen.storyboard in Resources */,
+				85332C3520DF683A00ECE38D /* GoogleService-Info.plist in Resources */,
 				85E8053E20DF60DA009BC92E /* Assets.xcassets in Resources */,
 				85E8053C20DF60D8009BC92E /* Main.storyboard in Resources */,
 			);
@@ -251,12 +314,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0667BC4E92F81551F5314700 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chamba-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18B4707D1F4817198F822B8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chamba/Pods-Chamba-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AZDropdownMenu/AZDropdownMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AZDropdownMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chamba/Pods-Chamba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EF220F82660CDAA5286F67B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChambaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F75C9270F4D63FFE8F9C61CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChambaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85E8052F20DF60D8009BC92E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85332C3920DF6BB000ECE38D /* User.swift in Sources */,
+				85332C3720DF6B9100ECE38D /* Candidate.swift in Sources */,
+				85332C3D20DF7CF600ECE38D /* DetailCell.swift in Sources */,
+				85332C3F20E00A6900ECE38D /* VaccancyController.swift in Sources */,
 				85E8053920DF60D8009BC92E /* ViewController.swift in Sources */,
+				85332C3B20DF7BCB00ECE38D /* CandidateDetailViewController.swift in Sources */,
 				85E8053720DF60D8009BC92E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,9 +581,11 @@
 		};
 		85E8055C20DF60DB009BC92E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD88AC73231E2AB35CC9A802 /* Pods-Chamba.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YFJ48SR2KW;
 				INFOPLIST_FILE = Chamba/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,9 +600,11 @@
 		};
 		85E8055D20DF60DB009BC92E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569CA4F242DFC107CB0585DA /* Pods-Chamba.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YFJ48SR2KW;
 				INFOPLIST_FILE = Chamba/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +619,7 @@
 		};
 		85E8055F20DF60DB009BC92E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C80F435AAB5E4126F5776C /* Pods-ChambaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +640,7 @@
 		};
 		85E8056020DF60DB009BC92E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA817A53C919E1FE092783E /* Pods-ChambaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +661,7 @@
 		};
 		85E8056220DF60DB009BC92E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F817A767E00364B71A3823A /* Pods-ChambaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +681,7 @@
 		};
 		85E8056320DF60DB009BC92E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E03058C47D9092CA3E21A1 /* Pods-ChambaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

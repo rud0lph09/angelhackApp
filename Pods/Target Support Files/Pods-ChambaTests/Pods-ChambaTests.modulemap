@@ -1,0 +1,6 @@
+framework module Pods_ChambaTests {
+  umbrella header "Pods-ChambaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
